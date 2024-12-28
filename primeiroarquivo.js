@@ -1,4 +1,7 @@
 "use strict";
-let idade = 22;
-let nome = "Julio";
-console.log(`Nome: ${nome}, Idade: ${idade}`);
+function greet(user) {
+    console.log('Hi, I am ' + user.name);
+}
+function isOlder(user, checkAge) {
+    return checkAge > user.age;
+}
