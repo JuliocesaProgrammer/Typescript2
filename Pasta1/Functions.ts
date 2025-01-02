@@ -7,3 +7,7 @@
     }
 
     printresult(add(5,12));
+
+    let combinedvalues = add;
+
+    console.log(combinedvalues(10, 20)); // Outputs: 30
